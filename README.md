@@ -112,18 +112,6 @@ I am especially interested in work that combines a clear research question with 
   </a>
 </p>
 
-## GitHub at a glance
 
-<div align="center">
-  <a href="https://github.com/pxnkit">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pxnkit&theme=transparent" alt="Pankit Brahmkhatri's GitHub stats">
-  </a>
-</div>
 
----
-
-<div align="center">
-  <strong>Building agents that know when to search, remember, learn, act, or abstain.</strong><br>
-  <sub>I use <code>pxnkit</code> as my username across platforms.</sub>
-</div>
 
