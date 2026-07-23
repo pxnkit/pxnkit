@@ -162,7 +162,7 @@ I would like to collaborate with researchers and developers working on agent mem
 
 <div align="center">
   <a href="https://github.com/pxnkit">
-    <img src="https://github-readme-stats.vercel.app/api?username=pxnkit&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Pankit Brahmkhatri's GitHub stats">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pxnkit&theme=transparent" alt="Pankit Brahmkhatri's GitHub stats">
   </a>
 </div>
 
