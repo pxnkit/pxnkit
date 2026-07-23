@@ -3,6 +3,7 @@
 
   <p>
     <strong>MSc Computer Science at TU Dresden</strong><br>
+    <strong>Student Research Assistant at the Chair of Materials Science and Nanotechnology</strong>
   </p>
 
   <p>
@@ -47,109 +48,64 @@
 
 ## About me
 
-I am pursuing an MSc in Computer Science at TU Dresden and work as a student research assistant at the Chair of Materials Science and Nanotechnology.
+I design and evaluate adaptive agent systems that decide when to retrieve evidence, what to retain in memory, how to update from feedback, and when to act or abstain.
 
-I am interested in agents that can find useful information, remember what matters, learn from feedback, and make better decisions. I enjoy working on questions that connect retrieval, memory, learning, reasoning, and safe tool use.
+My work sits at the intersection of information retrieval, agent memory, test-time learning, and search-guided reasoning. I focus on systems whose decisions remain grounded in evidence, resilient to stale or conflicting memory, and measurable through reproducible experiments.
 
-## 🔎 Research focus
+## Research focus
 
-| Area | Questions I care about |
+| Area | Problems I care about |
 |---|---|
-| **Adaptive evidence seeking** | When should an agent search, which source should it use, and when is the available evidence enough? |
-| **Agent memory** | What should an agent keep, update, consolidate, or forget? |
-| **Test-time learning** | How can feedback improve later decisions without damaging earlier knowledge? |
-| **Search-guided reasoning** | How can retrieval, verification, and uncertainty improve multi-step reasoning? |
+| **Adaptive evidence seeking** | Query planning, source routing, hybrid retrieval, cross-encoder reranking, provenance, evidence sufficiency, and budget-aware stopping |
+| **Agent memory and test-time learning** | Episodic, semantic, and procedural memory; consolidation; temporal validity; forgetting; experience replay; feedback; and online adaptation |
+| **Search-guided reasoning** | Best-of-N, beam and tree search, verifier-guided trajectories, process feedback, uncertainty estimation, adaptive compute, and calibrated act or abstain decisions |
+| **Reliable agent execution** | Structured tool schemas, durable checkpoints, idempotent actions, pre-action verification, sandboxing, prompt injection testing, and memory poisoning resistance |
 
-## 🧰 Tech stack
+## Technical profile
 
-These are the tools and methods I use or am learning for this work.
-
-### Core engineering
+### Core toolkit
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white" alt="uv">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic">
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
-  <img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=111827" alt="Ruff">
-  <img src="https://img.shields.io/badge/mypy-2A6DB2?style=flat-square" alt="mypy">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
-</p>
-
-### Models and learning
-
-<p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111827" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/Transformers-7C3AED?style=flat-square" alt="Transformers">
-  <img src="https://img.shields.io/badge/Datasets-2563EB?style=flat-square" alt="Datasets">
-  <img src="https://img.shields.io/badge/Accelerate-4F46E5?style=flat-square" alt="Accelerate">
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=111827" alt="Transformers">
   <img src="https://img.shields.io/badge/Sentence_Transformers-0F766E?style=flat-square" alt="Sentence Transformers">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/PEFT_%2F_LoRA-8B5CF6?style=flat-square" alt="PEFT and LoRA">
-  <img src="https://img.shields.io/badge/TRL-6D28D9?style=flat-square" alt="TRL">
-  <img src="https://img.shields.io/badge/vLLM-0F766E?style=flat-square" alt="vLLM">
-</p>
-
-### Search, retrieval, and memory
-
-<p>
-  <img src="https://img.shields.io/badge/BM25-0369A1?style=flat-square" alt="BM25">
-  <img src="https://img.shields.io/badge/Lucene-F59E0B?style=flat-square&logo=apachelucene&logoColor=white" alt="Lucene">
-  <img src="https://img.shields.io/badge/Dense_Retrieval-2563EB?style=flat-square" alt="Dense retrieval">
-  <img src="https://img.shields.io/badge/Hybrid_Search-0891B2?style=flat-square" alt="Hybrid search">
-  <img src="https://img.shields.io/badge/Cross--Encoder_Reranking-0F766E?style=flat-square" alt="Cross-encoder reranking">
+  <img src="https://img.shields.io/badge/BM25_%2B_Hybrid_Search-0369A1?style=flat-square" alt="BM25 and hybrid search">
   <img src="https://img.shields.io/badge/FAISS-2563EB?style=flat-square" alt="FAISS">
-  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white" alt="OpenSearch">
-  <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square" alt="pgvector">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=111827" alt="DuckDB">
-  <img src="https://img.shields.io/badge/Parquet_%2F_Arrow-4B5563?style=flat-square&logo=apacheparquet&logoColor=white" alt="Parquet and Arrow">
-  <img src="https://img.shields.io/badge/ANN_%2F_HNSW-1D4ED8?style=flat-square" alt="ANN and HNSW">
-  <img src="https://img.shields.io/badge/Temporal_Memory-7C3AED?style=flat-square" alt="Temporal memory">
-  <img src="https://img.shields.io/badge/Knowledge_Graphs-008CC1?style=flat-square&logo=neo4j&logoColor=white" alt="Knowledge graphs">
-</p>
-
-### Agents, evaluation, and safety
-
-<p>
+  <img src="https://img.shields.io/badge/PostgreSQL_%2B_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL and pgvector">
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph">
   <img src="https://img.shields.io/badge/MCP-111827?style=flat-square" alt="Model Context Protocol">
-  <img src="https://img.shields.io/badge/Structured_Tool_Use-0F766E?style=flat-square" alt="Structured tool use">
-  <img src="https://img.shields.io/badge/State_Machines-334155?style=flat-square" alt="State machines">
-  <img src="https://img.shields.io/badge/Beam_%2F_Tree_%2F_MCTS-6D28D9?style=flat-square" alt="Beam, tree, and MCTS search">
-  <img src="https://img.shields.io/badge/BEIR-0369A1?style=flat-square" alt="BEIR">
-  <img src="https://img.shields.io/badge/ir__measures-2563EB?style=flat-square" alt="ir_measures">
-  <img src="https://img.shields.io/badge/pytrec__eval_%2F_ranx-1D4ED8?style=flat-square" alt="pytrec_eval and ranx">
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow">
   <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
-  <img src="https://img.shields.io/badge/Recall%40k_%7C_MRR_%7C_nDCG-0891B2?style=flat-square" alt="Recall at k, MRR, and nDCG">
-  <img src="https://img.shields.io/badge/Calibration_%26_Abstention-D97706?style=flat-square" alt="Calibration and abstention">
-  <img src="https://img.shields.io/badge/Tool_Sandboxing-B91C1C?style=flat-square" alt="Tool sandboxing">
-  <img src="https://img.shields.io/badge/Prompt_Injection_Testing-B91C1C?style=flat-square" alt="Prompt injection testing">
-  <img src="https://img.shields.io/badge/Memory_Poisoning_Testing-991B1B?style=flat-square" alt="Memory poisoning testing">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
 
-## 🧪 What I am exploring
+I treat retrieval, memory, reasoning, and execution as one connected system. Each layer needs clear interfaces, traceable decisions, and evaluation that reflects real failure modes.
 
-- Learning when an agent should search and when the available evidence is enough
-- Routing information between context, external memory, and model updates
-- Learning from feedback and failed attempts at test time
-- Using retrieval and verification for long reasoning tasks
-- Handling stale, contradictory, or poisoned memories
-- Deciding when an agent should act and when it should abstain
+| Layer | Technologies and methods |
+|---|---|
+| **Engineering and data contracts** | Python, Git, Linux, PostgreSQL, `uv`, Ruff, mypy, Pydantic, FastAPI, pytest, Docker, and GitHub Actions |
+| **Models and adaptation** | PyTorch, Hugging Face Transformers, Datasets, Accelerate, Sentence Transformers, PEFT and LoRA, TRL, vLLM, replay buffers, adapter versioning, and retention or forgetting evaluation |
+| **Retrieval and evidence routing** | BM25 and Lucene, dense embeddings, reciprocal-rank fusion, cross-encoder reranking, FAISS, PostgreSQL and pgvector, OpenSearch, filtered ANN and HNSW, query decomposition, source routing, provenance, and evidence-sufficiency stopping |
+| **Agent memory and data plane** | Episodic, semantic, and procedural memory; append-only and bi-temporal event stores; PostgreSQL for durable state; Redis for caching; DuckDB with Parquet and Arrow for trajectory data; graph storage when traversal is a core requirement |
+| **Agent runtime and reasoning search** | LangGraph or explicit state machines, structured tool schemas, Model Context Protocol, durable checkpoints, timeouts, retries, idempotency, best-of-N, beam and tree search, MCTS, verifier models, uncertainty scoring, and adaptive compute allocation |
+| **Evaluation and observability** | `ir_datasets` and BEIR-style corpora, `ir_measures`, pytrec_eval, ranx, Recall@k, MRR, nDCG, MLflow, OpenTelemetry traces, Brier and ECE calibration, risk-coverage curves, latency, and cost budgets |
+| **Security and reliable action** | Sandboxed tools, least privilege, ACL-aware retrieval, secrets management, append-only provenance, policy gates, prompt injection tests, memory poisoning tests, and deterministic replay |
 
-## 🤝 Collaboration
+## Current research directions
 
-I would like to collaborate with researchers and developers working on agent memory, adaptive search, test-time learning, search-guided reasoning, and reliable tool use.
+- Learning retrieval and memory policies instead of relying only on fixed RAG pipelines
+- Routing information between working context, external memory, and model updates
+- Adapting from interaction feedback and failed trajectories while measuring retention and forgetting
+- Using retrieval-grounded verification for long-horizon reasoning
+- Maintaining memory freshness, provenance, temporal validity, and contradiction handling
+- Building poisoning-resistant memory and prompt-injection-aware retrieval
+- Calibrating when an agent should search, continue reasoning, act, ask for help, or abstain
+
+## Collaboration
+
+I am interested in collaborating on agent memory benchmarks, learned retrieval policies, test-time adaptation, search-guided reasoning, agent evaluation, and reliable tool-using systems.
+
+I am especially interested in work that combines a clear research question with reproducible systems, measurable failure modes, and honest evaluation.
 
 <p align="center">
   <a href="mailto:pankitrb@gmail.com">
@@ -157,7 +113,7 @@ I would like to collaborate with researchers and developers working on agent mem
   </a>
 </p>
 
-## 📊 GitHub at a glance
+## GitHub at a glance
 
 <div align="center">
   <a href="https://github.com/pxnkit">
@@ -165,7 +121,10 @@ I would like to collaborate with researchers and developers working on agent mem
   </a>
 </div>
 
+---
+
 <div align="center">
+  <strong>Building agents that know when to search, remember, learn, act, or abstain.</strong><br>
   <sub>I use <code>pxnkit</code> as my username across platforms.</sub>
 </div>
 
