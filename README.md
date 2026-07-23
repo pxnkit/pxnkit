@@ -19,7 +19,7 @@
       <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email">
     </a>
     <a href="https://nano.tu-dresden.de/member/pankit-ramesh_brahmkhatri">
-<img src="assets/tu-dresden-logo.svg" height="28" alt="TU Dresden">
+<img src="https://img.shields.io/badge/TU%20Dresden-00549F?style=flat-square&logo=bookstack&logoColor=white" alt="TU Dresden">
     </a>
     <a href="https://scholar.google.com/citations?user=voLyug8AAAAJ&hl=en">
       <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar">
