@@ -32,9 +32,12 @@ I would like to collaborate with researchers and developers working on agent mem
 
 - [LinkedIn](https://www.linkedin.com/in/pxnkit)
 - [TU Dresden profile](https://nano.tu-dresden.de/member/pankit-ramesh_brahmkhatri)
+- [Google Scholar](https://scholar.google.com/citations?user=voLyug8AAAAJ&hl=en)
+- [ORCID](https://orcid.org/0009-0001-2184-4005)
 - [Email](mailto:pankitrb@gmail.com)
 - [GitHub](https://github.com/pxnkit)
 - [Instagram](https://www.instagram.com/pxnkit/)
+- [Threads](https://www.threads.com/@pxnkit)
 - [X](https://x.com/pxnkit)
 
 I use `pxnkit` as my username across platforms.
