@@ -3,7 +3,6 @@
 
   <p>
     <strong>MSc Computer Science at TU Dresden</strong><br>
-    <strong>Student Research Assistant at the Chair of Materials Science and Nanotechnology</strong>
   </p>
 
   <p>
